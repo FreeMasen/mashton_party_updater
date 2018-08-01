@@ -1,0 +1,12 @@
+[package]
+name = "update"
+version = "0.1.0"
+authors = ["Robert Masen <r@robertmasen.pizza>"]
+
+[dependencies]
+data = { path = "../mashton_party_api" }
+serde = "1"
+serde_derive = "1"
+serde_json = "1"
+web-view = {git = "https://github.com/Boscop/web-view"}
+plist = "0"

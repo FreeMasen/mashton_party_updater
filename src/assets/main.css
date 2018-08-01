@@ -1,0 +1,34 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+div {
+    width: 100%;
+
+}
+span {
+    font-size: 16pt;
+    color: white;
+}
+input,
+select,
+textarea,
+button {
+    outline: none;
+}

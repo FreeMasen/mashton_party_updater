@@ -1,0 +1,20 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="app"></div>
+        <script id="web-view-default-script">
+            window.addEventListener('load', function() {
+                console.log('load');
+                window.external.invoke(JSON.stringify({kind: 'Loaded'}))
+            });
+            window.addEventListener('app-error', function(ev) {
+                console.error('error', ev)
+            });
+            window.addEventListener('new-state', function(ev) {
+                console.log('new-state', ev);
+            })
+        </script>
+    </body>
+</html>
